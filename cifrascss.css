@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Open+Sans&display=swap');
+body {
+    margin: 5px;
+}
+#centro{
+    margin-top: 70px;
+}
+#centro h1{   
+    position: absolute;
+    top: -10px;
+    left: 100px; 
+    font-family: 'Inconsolata', monospace;
+}
+#centro h2{   
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    font-family: 'Open Sans', sans-serif; 
+}
+#centro h3{
+    position: absolute;
+    top: 140px;
+    left: 150px;
+    font-size: 15pt;
+    font-family: 'Open Sans', sans-serif;
+}
+#centro h4{
+    position: absolute;
+    top: 135px;
+    right: 308px;
+    font-size: 15pt;
+    font-family: 'Open Sans', sans-serif;
+}
+span#linha{
+    display: block;
+    position: absolute;
+    width: 1360px;
+    height: 2px;
+    background-color: black;
+    margin-top: -10px;
+}
+nav#menu{
+    display: block;
+}
+nav#menu img#icone{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 1200px;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50px;
+    left: 1050px;
+}
+nav#menu li{
+    display: inline-block;
+    font-size: 15pt;
+    padding: 0px 35px 0px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+nav#menu a{
+    text-decoration: none;
+    color: black;
+}
+#centro textarea{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    resize: none;
+    top: 200px;
+    font-size: 15pt;
+}
+#centro textarea#cripto{
+    left: 150px;
+}
+#centro textarea#descripto{
+    right: 155px;
+}
+#botoes #botaodescriptografar{
+    width: 120px;
+    height: 40px;
+    margin: 10px 15px 0px 15px;
+    padding: 0px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+    font-size: 10pt;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 455px;
+    right: 135px;
+}  
+#botoes #botaocriptografar{
+    width: 120px;
+    height: 40px;
+    margin: 10px 15px 0px 15px;
+    padding: 0px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+    font-size: 10pt;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 455px;
+    left: 420px;
+} 
+#botoes #chave{
+    position: absolute;
+    width: 50px;
+    margin: 0px 15px 0px 15px;
+    top: 300px;
+    right: 645px;
+}
